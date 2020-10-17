@@ -29,6 +29,7 @@ switch ($halaman) {
       break;
 
    case 'barang':
+
       include 'view/barang.php';
       break;
    case 'add-barang':
@@ -37,6 +38,7 @@ switch ($halaman) {
    case 'upd-barang':
       include 'view/upd-form/upd-barang.php';
       break;
+
 
 
       //AKSI FORM
@@ -50,6 +52,10 @@ switch ($halaman) {
 
    case 'act-layanan':
       include 'modul/act-layanan.php';
+      break;
+
+   case 'act-barang':
+      include 'modul/act-barang.php';
       break;
 
    default:
