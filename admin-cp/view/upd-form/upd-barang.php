@@ -1,5 +1,5 @@
 <?php
-$data = getBarangById($_GET['id']);
+$data = getusersById($_GET['id']);
 ?>
 
 <h3>mengubah Data barang</h3>
